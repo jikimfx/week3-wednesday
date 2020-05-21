@@ -6,7 +6,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .footer {
@@ -15,12 +15,11 @@ body {
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: #ddd;
 }
 
 body .container {
     padding: 60px 15px 15px;
- }
+}
 
 .footer .container {
     padding-right: 15px;
@@ -32,7 +31,7 @@ body .container {
     color: #fff;
     text-align: center;
     width: 100%;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -71,7 +70,7 @@ article a.btn-more:hover {
 article h2 a {
     color: #0e2f44;
     transition: 0.4s;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 1.75rem;
 }
