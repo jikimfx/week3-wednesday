@@ -1,7 +1,7 @@
 let newsList = [];
 const apiKey = "8a9aeb002d724b2789a5c6d2d9f212e8";
 const loadNews = async () => {
-    let url = `https://newsapi.org/v2/everything?q=korea&apiKey=${apiKey}`
+    let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`
     let data = await fetch(url)
     let result = await data.json();
     newsList = result.articles
